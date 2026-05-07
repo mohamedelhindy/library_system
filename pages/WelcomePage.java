@@ -5,23 +5,32 @@ import javax.swing.*;
 import java.awt.*;
 
 public class WelcomePage extends JPanel {
+    private JLabel title;
     private JProgressBar progressBar;
 
-    public WelcomePage(JFrame frame) {
+    public WelcomePage() {
+        initializeComponents();
+        styleComponents();
+        layoutComponents();
+    }
+
+    private void initializeComponents() {
+        title = new JLabel("Library System");
+        progressBar = new JProgressBar();
+        progressBar.setValue(0);
+    }
+
+    private void styleComponents() {
         setBackground(Color.BLACK);
-
-        JLabel title = new JLabel("Library System");
-
         title.setFont(new Font("Arial", Font.BOLD, 50));
         title.setForeground(Color.WHITE);
         title.setAlignmentX(CENTER_ALIGNMENT);
 
-        progressBar = new JProgressBar();
-
-        progressBar.setValue(0);
         progressBar.setMaximumSize(new Dimension(250, 30));
         progressBar.setAlignmentX(CENTER_ALIGNMENT);
+    }
 
+    private void layoutComponents() {
         setLayout(new BoxLayout(this, BoxLayout.Y_AXIS));
 
         add(Box.createVerticalGlue());
@@ -30,10 +39,10 @@ public class WelcomePage extends JPanel {
         add(progressBar);
         add(Box.createVerticalGlue());
         
-        startLoading(frame);
+        startLoading();
     }
 
-    private void startLoading(JFrame frame) {
+    private void startLoading() {
         Timer timer = new Timer(40, e -> {
             int value = progressBar.getValue();
 
@@ -41,7 +50,6 @@ public class WelcomePage extends JPanel {
                 progressBar.setValue(value + 1);
             } else {
                 ((Timer)e.getSource()).stop();
-                frame.dispose();
             }
         });
 
