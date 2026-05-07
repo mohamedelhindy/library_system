@@ -1,4 +1,3 @@
-
 package library_system.models;
 
 public class Book {
