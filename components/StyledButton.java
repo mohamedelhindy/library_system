@@ -13,7 +13,6 @@ public class StyledButton extends JButton {
         setFocusPainted(false);
         setBorderPainted(false);
         setOpaque(true);
-        // setMaximumSize(new Dimension(280, 50));
     }
 }
 
