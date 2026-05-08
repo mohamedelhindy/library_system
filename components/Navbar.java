@@ -6,7 +6,9 @@ import javax.swing.*;
 import library_system.utils.Navigator;
 
 import library_system.pages.LoginPage;
+import library_system.pages.BooksPage;
 import library_system.pages.Dashboard;
+import library_system.pages.HistoryPage;
 
 public class Navbar extends JPanel {
 
@@ -25,8 +27,8 @@ public class Navbar extends JPanel {
         add(Box.createVerticalStrut(40));
 
         addNavButton("Dashboard", e -> Navigator.navigateTo(new Dashboard()));
-        addNavButton("Books", null);
-        addNavButton("History", null);
+        addNavButton("Books", e -> Navigator.navigateTo(new BooksPage()));
+        addNavButton("History", e -> Navigator.navigateTo(new HistoryPage()));
         addNavButton("Profile", null);
 
         add(Box.createVerticalGlue());
@@ -38,7 +40,7 @@ public class Navbar extends JPanel {
 
     private void addNavButton(String text, java.awt.event.ActionListener action) {
         StyledButton btn = new StyledButton(text);
-        
+
         btn.setMaximumSize(new Dimension(160, 45));
         btn.setAlignmentX(CENTER_ALIGNMENT);
         btn.setFont(new Font("Arial", Font.BOLD, 14));
