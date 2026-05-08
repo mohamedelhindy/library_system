@@ -9,6 +9,7 @@ import library_system.pages.LoginPage;
 import library_system.pages.BooksPage;
 import library_system.pages.Dashboard;
 import library_system.pages.HistoryPage;
+import library_system.pages.ProfilePage;
 
 public class Navbar extends JPanel {
 
@@ -29,7 +30,7 @@ public class Navbar extends JPanel {
         addNavButton("Dashboard", e -> Navigator.navigateTo(new Dashboard()));
         addNavButton("Books", e -> Navigator.navigateTo(new BooksPage()));
         addNavButton("History", e -> Navigator.navigateTo(new HistoryPage()));
-        addNavButton("Profile", null);
+        addNavButton("Profile", e -> Navigator.navigateTo(new ProfilePage()));
 
         add(Box.createVerticalGlue());
 

@@ -38,8 +38,8 @@ public class HistoryPage extends JPanel {
 
         title.setFont(new Font("Arial", Font.BOLD, 60));
         title.setForeground(Color.WHITE);
-        title.setAlignmentX(CENTER_ALIGNMENT);
-
+        title.setAlignmentX(Component.CENTER_ALIGNMENT);
+        
         historyList.setBackground(new Color(30, 30, 30));
         historyList.setForeground(Color.WHITE);
         historyList.setFont(new Font("Arial", Font.PLAIN, 20));
@@ -58,11 +58,19 @@ public class HistoryPage extends JPanel {
         content.setBorder(BorderFactory.createEmptyBorder(30, 30, 30, 30));
 
         JScrollPane scrollPane = new JScrollPane(historyList);
-        scrollPane.setBorder(BorderFactory.createEmptyBorder());
 
+        scrollPane.setBorder(BorderFactory.createEmptyBorder());
+        scrollPane.setPreferredSize(new Dimension(600, 300));
+        scrollPane.setMaximumSize(new Dimension(700, 300));
+        scrollPane.setAlignmentX(CENTER_ALIGNMENT);
+
+        content.add(Box.createVerticalGlue());
         content.add(title);
+
         content.add(Box.createVerticalStrut(20));
+
         content.add(scrollPane);
+        content.add(Box.createVerticalGlue());
 
         add(content, BorderLayout.CENTER);
     }
