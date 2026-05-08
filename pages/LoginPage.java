@@ -86,6 +86,8 @@ public class LoginPage extends JPanel {
             String email = emailTextField.getText();
             String password = passwordTextField.getText();
 
+            Navigator.navigateTo(new Dashboard());
+
             // TODO: Implement backend Logic
             System.out.println("Email: " + email);
             System.out.println("Password: " + password);
