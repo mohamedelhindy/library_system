@@ -7,6 +7,8 @@ import library_system.components.LabelField;
 import library_system.components.TextField;
 import library_system.components.StyledButton;
 
+import library_system.utils.Navigator;
+
 public class SignupPage extends JPanel {
 
     private JLabel title;
@@ -23,7 +25,6 @@ public class SignupPage extends JPanel {
     private StyledButton loginBtn;
 
     public SignupPage() {
-
         initializeComponents();
 
         styleComponents();
@@ -32,7 +33,6 @@ public class SignupPage extends JPanel {
     }
 
     private void initializeComponents() {
-
         title = new JLabel("Sign Up");
 
         usernameLabel = new LabelField("Username:");
@@ -48,81 +48,65 @@ public class SignupPage extends JPanel {
     }
 
     private void styleComponents() {
-
         setBackground(Color.BLACK);
 
         title.setFont(new Font("Arial", Font.BOLD, 60));
-
         title.setForeground(Color.WHITE);
-
         title.setAlignmentX(CENTER_ALIGNMENT);
     }
 
     private void layoutComponents() {
-
         setLayout(new BoxLayout(this, BoxLayout.Y_AXIS));
 
         add(Box.createVerticalGlue());
-
         add(title);
 
         add(Box.createVerticalStrut(40));
 
         add(usernameLabel);
-
         add(usernameTextField);
 
         add(Box.createVerticalStrut(20));
 
         add(emailLabel);
-
         add(emailTextField);
 
         add(Box.createVerticalStrut(20));
 
         add(passwordLabel);
-
         add(passwordTextField);
 
         add(Box.createVerticalStrut(40));
 
         JPanel buttonRow = new JPanel();
-
         buttonRow.setLayout(new BoxLayout(buttonRow, BoxLayout.X_AXIS));
-
         buttonRow.setBackground(Color.BLACK);
-
+        
         buttonRow.add(Box.createHorizontalGlue());
-
-        buttonRow.add(signupBtn);
-
-        buttonRow.add(Box.createHorizontalStrut(20));
-
         buttonRow.add(loginBtn);
 
+        buttonRow.add(Box.createHorizontalStrut(20));
+        
+        buttonRow.add(signupBtn);
         buttonRow.add(Box.createHorizontalGlue());
 
         add(buttonRow);
-
         add(Box.createVerticalGlue());
 
         addListeners();
     }
 
     private void addListeners() {
+        loginBtn.addActionListener(e -> Navigator.navigateTo(new LoginPage()));
 
         signupBtn.addActionListener(e -> {
-
             String username = usernameTextField.getText();
-
             String email = emailTextField.getText();
-
             String password = passwordTextField.getText();
 
+            // TODO: Implement backend Logic
             System.out.println("Username: " + username);
-
             System.out.println("Email: " + email);
-
             System.out.println("Password: " + password);
         });
     }

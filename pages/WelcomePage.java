@@ -4,6 +4,9 @@ import javax.swing.*;
 
 import java.awt.*;
 
+import library_system.utils.Navigator;
+
+
 public class WelcomePage extends JPanel {
     private JLabel title;
     private JProgressBar progressBar;
@@ -50,6 +53,7 @@ public class WelcomePage extends JPanel {
                 progressBar.setValue(value + 1);
             } else {
                 ((Timer)e.getSource()).stop();
+                Navigator.navigateTo(new SignupPage());
             }
         });
 

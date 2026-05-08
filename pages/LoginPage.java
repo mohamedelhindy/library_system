@@ -7,6 +7,8 @@ import library_system.components.LabelField;
 import library_system.components.TextField;
 import library_system.components.StyledButton;
 
+import library_system.utils.Navigator;;
+
 public class LoginPage extends JPanel {
 
     private JLabel title;
@@ -78,10 +80,13 @@ public class LoginPage extends JPanel {
     }
 
     private void addListeners() {
+        signupBtn.addActionListener(e -> Navigator.navigateTo(new SignupPage()));
+
         loginBtn.addActionListener(e -> {
             String email = emailTextField.getText();
             String password = passwordTextField.getText();
 
+            // TODO: Implement backend Logic
             System.out.println("Email: " + email);
             System.out.println("Password: " + password);
         });
