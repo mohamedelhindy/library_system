@@ -1,0 +1,25 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Run Library System",
+      "request": "launch",
+      "mainClass": "library_system.Main",
+      "classPaths": [
+        "${workspaceFolder}/bin",
+        "${workspaceFolder}/lib/mysql-connector-j-9.7.0.jar"
+      ]
+    },
+    {
+      "type": "java",
+      "name": "Test Database Connection",
+      "request": "launch",
+      "mainClass": "library_system.TestConnection",
+      "classPaths": [
+        "${workspaceFolder}/bin",
+        "${workspaceFolder}/lib/mysql-connector-j-9.7.0.jar"
+      ]
+    }
+  ]
+}

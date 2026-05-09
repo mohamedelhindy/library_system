@@ -1,0 +1,10 @@
+{
+  "java.project.sourcePaths": [
+    "."
+  ],
+  "java.project.outputPath": "bin",
+  "java.project.referencedLibraries": [
+    "lib/mysql-connector-j-9.7.0.jar"
+  ],
+  "java.jdt.ls.java.home": "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.18.8-hotspot"
+}
