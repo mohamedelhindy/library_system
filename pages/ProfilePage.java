@@ -4,6 +4,8 @@ import java.awt.*;
 import javax.swing.*;
 
 import library_system.components.Navbar;
+import library_system.models.User;
+import library_system.utils.Session;
 
 public class ProfilePage extends JPanel {
     private JLabel title;
@@ -19,15 +21,20 @@ public class ProfilePage extends JPanel {
 
     private void initializeComponents() {
         title = new JLabel("Profile");
+        
+        User currentUser = Session.getCurrentUser();
 
-        // Mock data for now
-        // TODO: Replace with backend/auth data later
+        usernameLabel = new JLabel(
+            "Username: " + currentUser.getName()
+        );
 
-        usernameLabel = new JLabel("Username: Mohamed");
+        emailLabel = new JLabel(
+            "Email: " + currentUser.getEmail()
+        );
 
-        emailLabel = new JLabel("Email: mohamed@gmail.com");
-
-        roleLabel = new JLabel("Role: Member");
+        roleLabel = new JLabel(
+            "Role: " + currentUser.getRole()
+        );
     }
 
     private void styleComponents() {

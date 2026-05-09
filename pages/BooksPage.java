@@ -2,8 +2,10 @@ package library_system.pages;
 
 import java.awt.*;
 import javax.swing.*;
+
 import library_system.components.Navbar;
 import library_system.components.StyledButton;
+import library_system.components.LabelField;
 
 public class BooksPage extends JPanel {
 
@@ -11,6 +13,8 @@ public class BooksPage extends JPanel {
     private JTextField searchField;
     private StyledButton searchBtn;
     private JTextArea booksList;
+    private LabelField roleLabel;
+    private JComboBox<String> roleDropdown;
 
     public BooksPage() {
         initializeComponents();
@@ -22,6 +26,8 @@ public class BooksPage extends JPanel {
         title = new JLabel("Books");
         searchField = new JTextField(20);
         searchBtn = new StyledButton("Search");
+        roleLabel = new LabelField("Role:");
+        roleDropdown = new JComboBox<>(new String[]{"Admin", "Librarian", "Member"});
 
         booksList = new JTextArea();
         booksList.setText(
@@ -38,7 +44,6 @@ public class BooksPage extends JPanel {
         title.setForeground(Color.WHITE);
         title.setAlignmentX(CENTER_ALIGNMENT);
 
-        // searchField.setMaximumSize(new Dimension(250, 35));
         searchField.setFont(new Font("Arial", Font.PLAIN, 16));
 
         searchBtn.setMaximumSize(new Dimension(100, 35));
