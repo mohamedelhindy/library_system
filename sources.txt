@@ -19,6 +19,10 @@ C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\
 C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\ProfilePage.java
 C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java
 C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\WelcomePage.java
+C:\Users\Gana\Downloads\library_system-main\library_system\library_system\panels\member\MyBorrowedBooksPanel.java
+C:\Users\Gana\Downloads\library_system-main\library_system\library_system\panels\member\MyHistoryPanel.java
+C:\Users\Gana\Downloads\library_system-main\library_system\library_system\panels\member\MyReservationsPanel.java
+C:\Users\Gana\Downloads\library_system-main\library_system\library_system\panels\member\SearchBooksPanel.java
 C:\Users\Gana\Downloads\library_system-main\library_system\library_system\services\LibrarySystem.java
 C:\Users\Gana\Downloads\library_system-main\library_system\library_system\services\UserService.java
 C:\Users\Gana\Downloads\library_system-main\library_system\library_system\utils\Navigator.java
