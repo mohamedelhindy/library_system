@@ -21,79 +21,102 @@ public class SignupPage extends JPanel {
 
     public SignupPage() {
         setLayout(null);
-        setBackground(new Color(25, 45, 65));
+        setOpaque(false);
 
+        // Card
         JPanel card = new JPanel();
         card.setLayout(null);
-        card.setBackground(new Color(55, 72, 92));
-        card.setBounds(200, 50, 400, 480);
+        card.setBackground(new Color(44, 64, 88, 230));
+        card.setBounds(360, 105, 640, 510);
+        card.setBorder(BorderFactory.createEmptyBorder());
         add(card);
 
+        // Title
         JLabel title = new JLabel("Create Account");
-        title.setFont(new Font("Arial", Font.BOLD, 34));
+        title.setFont(new Font("Segoe UI", Font.BOLD, 42));
         title.setForeground(Color.WHITE);
-        title.setBounds(65, 35, 300, 45);
+        title.setHorizontalAlignment(SwingConstants.CENTER);
+        title.setBounds(0, 25, 640, 55);
         card.add(title);
 
+        // Subtitle
         JLabel subtitle = new JLabel("Join the Library System and manage your books easily");
-        subtitle.setFont(new Font("Arial", Font.PLAIN, 13));
-        subtitle.setForeground(Color.WHITE);
-        subtitle.setBounds(45, 85, 330, 25);
+        subtitle.setFont(new Font("Segoe UI", Font.PLAIN, 17));
+        subtitle.setForeground(new Color(220, 230, 255));
+        subtitle.setHorizontalAlignment(SwingConstants.CENTER);
+        subtitle.setBounds(0, 78, 640, 30);
         card.add(subtitle);
 
+        // Username Label
         JLabel usernameLabel = new JLabel("Username");
+        usernameLabel.setFont(new Font("Segoe UI", Font.BOLD, 14));
         usernameLabel.setForeground(Color.WHITE);
-        usernameLabel.setFont(new Font("Arial", Font.BOLD, 13));
-        usernameLabel.setBounds(50, 130, 300, 25);
+        usernameLabel.setBounds(155, 125, 330, 25);
         card.add(usernameLabel);
 
+        // Username Field
         usernameField = new JTextField();
-        usernameField.setBounds(50, 155, 300, 35);
+        usernameField.setFont(new Font("Segoe UI", Font.PLAIN, 14));
+        usernameField.setBounds(155, 153, 330, 36);
         card.add(usernameField);
 
+        // Email Label
         JLabel emailLabel = new JLabel("Email");
+        emailLabel.setFont(new Font("Segoe UI", Font.BOLD, 14));
         emailLabel.setForeground(Color.WHITE);
-        emailLabel.setFont(new Font("Arial", Font.BOLD, 13));
-        emailLabel.setBounds(50, 205, 300, 25);
+        emailLabel.setBounds(155, 198, 330, 25);
         card.add(emailLabel);
 
+        // Email Field
         emailField = new JTextField();
-        emailField.setBounds(50, 230, 300, 35);
+        emailField.setFont(new Font("Segoe UI", Font.PLAIN, 14));
+        emailField.setBounds(155, 226, 330, 36);
         card.add(emailField);
 
+        // Password Label
         JLabel passwordLabel = new JLabel("Password");
+        passwordLabel.setFont(new Font("Segoe UI", Font.BOLD, 14));
         passwordLabel.setForeground(Color.WHITE);
-        passwordLabel.setFont(new Font("Arial", Font.BOLD, 13));
-        passwordLabel.setBounds(50, 280, 300, 25);
+        passwordLabel.setBounds(155, 271, 330, 25);
         card.add(passwordLabel);
 
+        // Password Field
         passwordField = new JPasswordField();
-        passwordField.setBounds(50, 305, 300, 35);
+        passwordField.setFont(new Font("Segoe UI", Font.PLAIN, 14));
+        passwordField.setBounds(155, 299, 330, 36);
         card.add(passwordField);
 
+        // Role Label
         JLabel roleLabel = new JLabel("Role");
+        roleLabel.setFont(new Font("Segoe UI", Font.BOLD, 14));
         roleLabel.setForeground(Color.WHITE);
-        roleLabel.setFont(new Font("Arial", Font.BOLD, 13));
-        roleLabel.setBounds(50, 355, 300, 25);
+        roleLabel.setBounds(155, 344, 330, 25);
         card.add(roleLabel);
 
+        // Role ComboBox
         roleBox = new JComboBox<>(new String[]{"Member", "Librarian", "Admin"});
-        roleBox.setBounds(50, 380, 300, 35);
+        roleBox.setFont(new Font("Segoe UI", Font.PLAIN, 14));
+        roleBox.setBounds(155, 372, 330, 36);
         card.add(roleBox);
 
+        // Signup Button
         signupButton = new JButton("Sign Up");
-        signupButton.setBounds(50, 430, 300, 35);
-        signupButton.setBackground(new Color(90, 170, 220));
+        signupButton.setFont(new Font("Segoe UI", Font.BOLD, 15));
+        signupButton.setBackground(new Color(93, 173, 226));
         signupButton.setForeground(Color.WHITE);
         signupButton.setFocusPainted(false);
+        signupButton.setBorder(BorderFactory.createEmptyBorder());
+        signupButton.setBounds(155, 430, 330, 40);
         card.add(signupButton);
 
-        loginButton = new JButton("Already have an account? Log In");
-        loginButton.setBounds(50, 465, 300, 25);
+        // Login Button
+        loginButton = new JButton("Already have an account? Login");
+        loginButton.setFont(new Font("Segoe UI", Font.PLAIN, 14));
+        loginButton.setForeground(new Color(220, 230, 255));
         loginButton.setBorderPainted(false);
         loginButton.setContentAreaFilled(false);
-        loginButton.setForeground(Color.WHITE);
         loginButton.setFocusPainted(false);
+        loginButton.setBounds(185, 474, 270, 28);
         card.add(loginButton);
 
         signupButton.addActionListener(e -> signup());
@@ -119,7 +142,7 @@ public class SignupPage extends JPanel {
         boolean success = signupUser(username, email, password, role);
 
         if (success) {
-            JOptionPane.showMessageDialog(this, "Account created successfully!");
+            JOptionPane.showMessageDialog(this, "Account created successfully");
             Navigator.navigateTo(new LoginPage());
         } else {
             JOptionPane.showMessageDialog(this, "Signup failed");
@@ -157,10 +180,10 @@ public class SignupPage extends JPanel {
             int rowsInserted = statement.executeUpdate();
 
             if (rowsInserted > 0) {
-                ResultSet generatedKeys = statement.getGeneratedKeys();
+                ResultSet keys = statement.getGeneratedKeys();
 
-                if (generatedKeys.next()) {
-                    int userId = generatedKeys.getInt(1);
+                if (keys.next()) {
+                    int userId = keys.getInt(1);
                     insertIntoRoleTable(connection, userId, role);
                 }
 
@@ -189,5 +212,31 @@ public class SignupPage extends JPanel {
             statement.setInt(1, userId);
             statement.executeUpdate();
         }
+    }
+
+    @Override
+    protected void paintComponent(Graphics g) {
+        super.paintComponent(g);
+
+        Graphics2D g2d = (Graphics2D) g.create();
+
+        int width = getWidth();
+        int height = getHeight();
+
+        GradientPaint background = new GradientPaint(
+                0, 0, new Color(20, 30, 48),
+                width, height, new Color(36, 59, 85)
+        );
+
+        g2d.setPaint(background);
+        g2d.fillRect(0, 0, width, height);
+
+        g2d.setColor(new Color(255, 255, 255, 25));
+        g2d.fillOval(-120, -120, 350, 350);
+
+        g2d.setColor(new Color(93, 173, 226, 35));
+        g2d.fillOval(width - 260, height - 260, 420, 420);
+
+        g2d.dispose();
     }
 }

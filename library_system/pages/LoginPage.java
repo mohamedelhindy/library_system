@@ -9,7 +9,7 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 
-public class LoginPage extends JPanel {
+public class LoginPage extends BasePage {
 
     private JTextField emailField;
     private JPasswordField passwordField;
@@ -17,61 +17,46 @@ public class LoginPage extends JPanel {
     private JButton signupButton;
 
     public LoginPage() {
-        setLayout(null);
-        setBackground(new Color(25, 45, 65));
+        setLayout(new GridBagLayout());
 
-        JPanel card = new JPanel();
+        JPanel card = createGlassCard(520, 420);
         card.setLayout(null);
-        card.setBackground(new Color(55, 72, 92));
-        card.setBounds(200, 90, 400, 400);
-        add(card);
 
-        JLabel title = new JLabel("Login");
-        title.setFont(new Font("Arial", Font.BOLD, 38));
-        title.setForeground(Color.WHITE);
-        title.setBounds(145, 45, 150, 50);
+        JLabel title = createTitle("Login", 46);
+        title.setBounds(0, 30, 520, 55);
+        title.setHorizontalAlignment(SwingConstants.CENTER);
         card.add(title);
 
-        JLabel subtitle = new JLabel("Welcome back to Library System");
-        subtitle.setFont(new Font("Arial", Font.PLAIN, 14));
-        subtitle.setForeground(Color.WHITE);
-        subtitle.setBounds(95, 95, 250, 25);
+        JLabel subtitle = createSubtitle("Welcome back to Library System");
+        subtitle.setBounds(0, 85, 520, 30);
+        subtitle.setHorizontalAlignment(SwingConstants.CENTER);
         card.add(subtitle);
 
-        JLabel emailLabel = new JLabel("Email");
-        emailLabel.setForeground(Color.WHITE);
-        emailLabel.setFont(new Font("Arial", Font.BOLD, 13));
-        emailLabel.setBounds(50, 145, 300, 25);
+        JLabel emailLabel = createFormLabel("Email");
+        emailLabel.setBounds(100, 145, 320, 25);
         card.add(emailLabel);
 
-        emailField = new JTextField();
-        emailField.setBounds(50, 170, 300, 35);
+        emailField = createTextField();
+        emailField.setBounds(100, 175, 320, 38);
         card.add(emailField);
 
-        JLabel passwordLabel = new JLabel("Password");
-        passwordLabel.setForeground(Color.WHITE);
-        passwordLabel.setFont(new Font("Arial", Font.BOLD, 13));
-        passwordLabel.setBounds(50, 220, 300, 25);
+        JLabel passwordLabel = createFormLabel("Password");
+        passwordLabel.setBounds(100, 230, 320, 25);
         card.add(passwordLabel);
 
-        passwordField = new JPasswordField();
-        passwordField.setBounds(50, 245, 300, 35);
+        passwordField = createPasswordField();
+        passwordField.setBounds(100, 260, 320, 38);
         card.add(passwordField);
 
-        loginButton = new JButton("Login");
-        loginButton.setBounds(50, 305, 300, 35);
-        loginButton.setBackground(new Color(90, 170, 220));
-        loginButton.setForeground(Color.WHITE);
-        loginButton.setFocusPainted(false);
+        loginButton = createPrimaryButton("Login");
+        loginButton.setBounds(100, 325, 320, 40);
         card.add(loginButton);
 
-        signupButton = new JButton("Don't have an account? Sign Up");
-        signupButton.setBounds(50, 345, 300, 25);
-        signupButton.setBorderPainted(false);
-        signupButton.setContentAreaFilled(false);
-        signupButton.setForeground(Color.WHITE);
-        signupButton.setFocusPainted(false);
+        signupButton = createLinkButton("Create new account");
+        signupButton.setBounds(140, 375, 240, 30);
         card.add(signupButton);
+
+        add(card);
 
         loginButton.addActionListener(e -> login());
         signupButton.addActionListener(e -> Navigator.navigateTo(new SignupPage()));
@@ -100,17 +85,16 @@ public class LoginPage extends JPanel {
                 String name = result.getString("name");
                 String role = result.getString("role");
 
-                JOptionPane.showMessageDialog(this, "Welcome " + name + " - " + role);
-
+                JOptionPane.showMessageDialog(this, "Welcome " + name + " (" + role + ")");
                 Navigator.navigateTo(new Dashboard());
 
             } else {
                 JOptionPane.showMessageDialog(this, "Invalid email or password");
             }
 
-        } catch (Exception e) {
-            JOptionPane.showMessageDialog(this, "Login failed: " + e.getMessage());
-            e.printStackTrace();
+        } catch (Exception ex) {
+            JOptionPane.showMessageDialog(this, "Login failed: " + ex.getMessage());
+            ex.printStackTrace();
         }
     }
 }
