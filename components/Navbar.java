@@ -10,6 +10,8 @@ import library_system.pages.BooksPage;
 import library_system.pages.Dashboard;
 import library_system.pages.HistoryPage;
 import library_system.pages.ProfilePage;
+import library_system.panels.member.SearchBooksPanel;
+import library_system.utils.Session;
 
 public class Navbar extends JPanel {
 
@@ -31,6 +33,11 @@ public class Navbar extends JPanel {
         addNavButton("Books", e -> Navigator.navigateTo(new BooksPage()));
         addNavButton("History", e -> Navigator.navigateTo(new HistoryPage()));
         addNavButton("Profile", e -> Navigator.navigateTo(new ProfilePage()));
+        addNavButton("Member", e -> Navigator.navigateTo(new SearchBooksPanel()));
+
+        if (Session.getCurrentUser().getRole().equals("Member")) {
+
+        }
 
         add(Box.createVerticalGlue());
 
