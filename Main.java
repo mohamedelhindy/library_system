@@ -3,9 +3,11 @@ package library_system;
 import javax.swing.*;
 
 import library_system.pages.WelcomePage;
+import library_system.services.LibrarySystem;
 import library_system.utils.Navigator;
 
 public class Main {
+    public static LibrarySystem library = new LibrarySystem();
     public static void main(String[] args) {
         JFrame frame = new JFrame("Library System");
 

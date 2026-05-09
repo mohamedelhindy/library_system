@@ -3,21 +3,23 @@ package library_system.pages;
 import java.awt.*;
 import javax.swing.*;
 
+import library_system.Main;
 import library_system.components.LabelField;
-import library_system.components.TextField;
 import library_system.components.StyledButton;
-
-import library_system.utils.Navigator;;
+import library_system.models.User;
+import library_system.utils.Navigator;
+import library_system.utils.Session;
 
 public class LoginPage extends JPanel {
 
     private JLabel title;
+    private JLabel errorLabel;
 
     private LabelField emailLabel;
     private LabelField passwordLabel;
 
-    private TextField emailTextField;
-    private TextField passwordTextField;
+    private JTextField emailField;
+    private JPasswordField passwordField;
 
     private StyledButton loginBtn;
     private StyledButton signupBtn;
@@ -29,15 +31,16 @@ public class LoginPage extends JPanel {
     }
 
     private void initializeComponents() {
-        title = new JLabel("Login");
+        title     = new JLabel("Login");
+        errorLabel = new JLabel(" ");
 
-        emailLabel = new LabelField("Email:");
+        emailLabel    = new LabelField("Email:");
         passwordLabel = new LabelField("Password:");
 
-        emailTextField = new TextField();
-        passwordTextField = new TextField();
+        emailField    = new JTextField(20);
+        passwordField = new JPasswordField(20);
 
-        loginBtn = new StyledButton("Log In");
+        loginBtn  = new StyledButton("Log In");
         signupBtn = new StyledButton("Sign Up");
     }
 
@@ -47,6 +50,16 @@ public class LoginPage extends JPanel {
         title.setFont(new Font("Arial", Font.BOLD, 60));
         title.setForeground(Color.WHITE);
         title.setAlignmentX(CENTER_ALIGNMENT);
+
+        errorLabel.setFont(new Font("Arial", Font.PLAIN, 14));
+        errorLabel.setForeground(new Color(220, 50, 50));
+        errorLabel.setAlignmentX(CENTER_ALIGNMENT);
+
+        emailField.setMaximumSize(new Dimension(300, 35));
+        emailField.setAlignmentX(CENTER_ALIGNMENT);
+
+        passwordField.setMaximumSize(new Dimension(300, 35));
+        passwordField.setAlignmentX(CENTER_ALIGNMENT);
     }
 
     private void layoutComponents() {
@@ -57,12 +70,15 @@ public class LoginPage extends JPanel {
         add(Box.createVerticalStrut(40));
 
         add(emailLabel);
-        add(emailTextField);
+        add(emailField);
         add(Box.createVerticalStrut(20));
 
         add(passwordLabel);
-        add(passwordTextField);
-        add(Box.createVerticalStrut(40));
+        add(passwordField);
+        add(Box.createVerticalStrut(10));
+
+        add(errorLabel);
+        add(Box.createVerticalStrut(20));
 
         JPanel buttonRow = new JPanel();
         buttonRow.setLayout(new BoxLayout(buttonRow, BoxLayout.X_AXIS));
@@ -79,18 +95,36 @@ public class LoginPage extends JPanel {
         addListeners();
     }
 
+    public static User login(String email, String password) {
+        for (User user : Main.library.getUsersList()) {
+            if (user.login(email, password)) {
+                return user;
+            }
+        }
+        
+        return null;
+    }
+
     private void addListeners() {
         signupBtn.addActionListener(e -> Navigator.navigateTo(new SignupPage()));
 
         loginBtn.addActionListener(e -> {
-            String email = emailTextField.getText();
-            String password = passwordTextField.getText();
+            String email    = emailField.getText().trim();
+            String password = new String(passwordField.getPassword()).trim();
 
-            Navigator.navigateTo(new Dashboard());
+            if (email.isEmpty() || password.isEmpty()) {
+                errorLabel.setText("Please fill in all fields.");
+                return;
+            }
 
-            // TODO: Implement backend Logic
-            System.out.println("Email: " + email);
-            System.out.println("Password: " + password);
+            User user = LoginPage.login(email, password);
+
+            if (user != null) {
+                Session.login(user);
+                Navigator.navigateTo(new Dashboard());
+            } else {
+                errorLabel.setText("Invalid email or password.");
+            }
         });
     }
 }
