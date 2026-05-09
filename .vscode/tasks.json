@@ -1,0 +1,22 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build project",
+      "type": "shell",
+      "command": "cmd",
+      "args": [
+        "/c",
+        "if not exist bin mkdir bin && dir /s /b library_system\\*.java > sources.txt && javac -d bin -cp \".;lib\\mysql-connector-j-9.7.0.jar\" @sources.txt"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": "$javac",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ]
+}
