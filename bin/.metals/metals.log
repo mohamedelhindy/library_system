@@ -9367,3 +9367,693 @@ May 09, 2026 4:50:04 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notif
 INFO: Unsupported notification method: $/setTrace
 2026.05.09 16:50:06 WARN  no build target for: C:\Users\Gana\Downloads\library_system-main\library_system\library_system\utils\Navigator.java
 2026.05.09 16:50:06 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\utils\Navigator.java. Using fallback presentation compiler.
+2026.05.09 16:50:21 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\utils\Navigator.java. Using fallback presentation compiler.
+2026.05.09 16:50:21 WARN  no build target for: C:\Users\Gana\Downloads\library_system-main\library_system\library_system\utils\Navigator.java
+2026.05.09 16:50:21 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\utils\Navigator.java. Using fallback presentation compiler.
+2026.05.09 16:50:21 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\utils\Navigator.java. Using fallback presentation compiler.
+2026.05.09 16:50:21 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\utils\Navigator.java. Using fallback presentation compiler.
+2026.05.09 16:50:21 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\utils\Navigator.java. Using fallback presentation compiler.
+May 09, 2026 4:50:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 215
+2026.05.09 16:51:24 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\utils\Navigator.java. Using fallback presentation compiler.
+2026.05.09 16:51:36 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\utils\Navigator.java. Using fallback presentation compiler.
+2026.05.09 16:51:44 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\LoginPage.java. Using fallback presentation compiler.
+2026.05.09 16:51:44 WARN  no build target for: C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\LoginPage.java
+2026.05.09 16:51:44 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\LoginPage.java. Using fallback presentation compiler.
+2026.05.09 16:51:44 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\LoginPage.java. Using fallback presentation compiler.
+2026.05.09 16:51:44 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\LoginPage.java. Using fallback presentation compiler.
+2026.05.09 16:51:49 INFO  Shutting down server
+2026.05.09 16:51:49 INFO  Memory monitor stopped
+2026.05.09 16:51:49 INFO  shutting down Metals
+2026.05.09 16:51:49 INFO  Exiting server
+2026.05.09 17:00:12 INFO  Started: Metals version 1.6.7+33-d73a6c3e-SNAPSHOT in folders 'C:\Users\Gana\Downloads\library_system-main\library_system' for client Visual Studio Code 1.119.0.
+2026.05.09 17:00:12 INFO  time: initialize in 0.34s
+2026.05.09 17:00:12 INFO  Memory monitor started
+2026.05.09 17:00:15 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.05.09 17:00:21 WARN  no build tool detected in workspace 'C:\Users\Gana\Downloads\library_system-main\library_system'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2026.05.09 17:00:21 WARN  Build server is not auto-connectable.
+2026.05.09 17:00:21 WARN  no build target for: C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\LoginPage.java
+2026.05.09 17:00:22 INFO  restarted 0 presentation compilers
+2026.05.09 17:00:28 INFO  time: code lens generation in 6.61s
+2026.05.09 17:00:28 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\LoginPage.java. Using fallback presentation compiler.
+2026.05.09 17:00:44 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\LoginPage.java. Using fallback presentation compiler.
+May 09, 2026 5:00:48 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.05.09 17:00:49 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\LoginPage.java. Using fallback presentation compiler.
+2026.05.09 17:00:51 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\LoginPage.java. Using fallback presentation compiler.
+2026.05.09 17:06:02 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\LoginPage.java. Using fallback presentation compiler.
+2026.05.09 17:06:02 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\LoginPage.java. Using fallback presentation compiler.
+2026.05.09 17:06:02 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\LoginPage.java. Using fallback presentation compiler.
+2026.05.09 17:06:04 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\LoginPage.java. Using fallback presentation compiler.
+2026.05.09 17:06:04 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\LoginPage.java. Using fallback presentation compiler.
+2026.05.09 17:06:04 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\LoginPage.java. Using fallback presentation compiler.
+May 09, 2026 5:06:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17
+2026.05.09 17:06:05 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\LoginPage.java. Using fallback presentation compiler.
+2026.05.09 17:06:07 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\LoginPage.java. Using fallback presentation compiler.
+2026.05.09 17:06:09 WARN  no build target for: C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\LoginPage.java
+2026.05.09 17:06:09 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\LoginPage.java. Using fallback presentation compiler.
+2026.05.09 17:17:09 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\LoginPage.java. Using fallback presentation compiler.
+2026.05.09 17:17:10 WARN  no build target for: C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\LoginPage.java
+May 09, 2026 5:17:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 27
+2026.05.09 17:17:10 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\LoginPage.java. Using fallback presentation compiler.
+2026.05.09 17:17:10 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\LoginPage.java. Using fallback presentation compiler.
+2026.05.09 17:17:11 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\LoginPage.java. Using fallback presentation compiler.
+2026.05.09 17:17:11 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\utils\Navigator.java. Using fallback presentation compiler.
+2026.05.09 17:17:11 WARN  no build target for: C:\Users\Gana\Downloads\library_system-main\library_system\library_system\utils\Navigator.java
+2026.05.09 17:17:12 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\utils\Navigator.java. Using fallback presentation compiler.
+2026.05.09 17:17:11 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\utils\Navigator.java. Using fallback presentation compiler.
+May 09, 2026 5:17:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 32
+2026.05.09 17:17:11 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\utils\Navigator.java. Using fallback presentation compiler.
+2026.05.09 17:17:11 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\utils\Navigator.java. Using fallback presentation compiler.
+2026.05.09 17:17:23 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:17:23 WARN  no build target for: C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java
+2026.05.09 17:17:24 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:17:23 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:17:23 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+May 09, 2026 5:17:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 41
+May 09, 2026 5:17:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 42
+May 09, 2026 5:17:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 44
+2026.05.09 17:17:25 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+May 09, 2026 5:17:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 46
+2026.05.09 17:17:25 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:17:25 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:17:25 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:17:25 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:17:26 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:17:26 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:17:26 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:17:27 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:17:28 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:17:28 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:17:29 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+May 09, 2026 5:17:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 64
+2026.05.09 17:17:30 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:17:30 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:17:46 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:17:46 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:17:48 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:17:48 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+May 09, 2026 5:17:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 74
+May 09, 2026 5:17:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 76
+2026.05.09 17:17:48 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:17:48 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+May 09, 2026 5:17:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 77
+2026.05.09 17:17:48 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:17:48 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:17:49 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:17:49 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:17:49 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+May 09, 2026 5:17:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 80
+2026.05.09 17:17:51 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:17:51 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+May 09, 2026 5:17:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 93
+2026.05.09 17:17:52 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:17:51 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:17:56 WARN  no build target for: C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java
+2026.05.09 17:17:56 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:17:56 INFO  Created report: Optional[file:///C:/Users/Gana/Downloads/library_system-main/library_system/library_system/pages/SignupPage.java]
+2026.05.09 17:17:56 INFO  QDox parse error in file:///C:/Users/Gana/Downloads/library_system-main/library_system/library_system/pages/SignupPage.java (full report at: "C:\Users\Gana\Downloads\library_system-main\library_system\.metals\.reports\metals-full\2026-05-09\r_qdox-error_17-17-56-340.md")
+2026.05.09 17:17:58 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:17:58 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:17:58 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:17:58 WARN  Running javac-semanticdb failed for file:///C:/Users/Gana/Downloads/library_system-main/library_system/library_system/pages/SignupPage.java. Output:
+
+2026.05.09 17:17:58 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:18:00 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:18:00 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:18:00 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:18:00 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:18:01 WARN  Running javac-semanticdb failed for file:///C:/Users/Gana/Downloads/library_system-main/library_system/library_system/pages/SignupPage.java. Output:
+
+2026.05.09 17:18:01 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:18:01 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:18:01 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:18:01 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:18:03 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:18:03 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:18:04 WARN  Running javac-semanticdb failed for file:///C:/Users/Gana/Downloads/library_system-main/library_system/library_system/pages/SignupPage.java. Output:
+
+2026.05.09 17:18:04 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:18:04 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:18:04 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:18:05 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:18:06 WARN  Running javac-semanticdb failed for file:///C:/Users/Gana/Downloads/library_system-main/library_system/library_system/pages/SignupPage.java. Output:
+
+2026.05.09 17:18:11 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:18:11 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:18:11 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:18:11 WARN  Running javac-semanticdb failed for file:///C:/Users/Gana/Downloads/library_system-main/library_system/library_system/pages/SignupPage.java. Output:
+
+2026.05.09 17:18:11 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:18:14 WARN  no build target for: C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java
+2026.05.09 17:18:14 INFO  QDox parse error in file:///C:/Users/Gana/Downloads/library_system-main/library_system/library_system/pages/SignupPage.java (full report at: "C:\Users\Gana\Downloads\library_system-main\library_system\.metals\.reports\metals-full\2026-05-09\r_qdox-error_17-17-56-340.md")
+2026.05.09 17:18:14 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:18:20 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:18:24 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:18:24 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:18:28 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:18:28 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:18:29 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:18:29 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:18:29 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:18:30 WARN  Running javac-semanticdb failed for file:///C:/Users/Gana/Downloads/library_system-main/library_system/library_system/pages/SignupPage.java. Output:
+
+2026.05.09 17:18:30 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:19:40 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:19:40 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:19:40 WARN  Running javac-semanticdb failed for file:///C:/Users/Gana/Downloads/library_system-main/library_system/library_system/pages/SignupPage.java. Output:
+
+2026.05.09 17:19:48 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:19:48 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:19:48 WARN  Running javac-semanticdb failed for file:///C:/Users/Gana/Downloads/library_system-main/library_system/library_system/pages/SignupPage.java. Output:
+
+2026.05.09 17:19:48 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:19:48 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:19:48 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:19:49 WARN  Running javac-semanticdb failed for file:///C:/Users/Gana/Downloads/library_system-main/library_system/library_system/pages/SignupPage.java. Output:
+
+2026.05.09 17:19:49 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:19:50 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:19:50 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:19:50 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:19:51 WARN  Running javac-semanticdb failed for file:///C:/Users/Gana/Downloads/library_system-main/library_system/library_system/pages/SignupPage.java. Output:
+
+2026.05.09 17:19:51 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:19:52 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:19:52 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:19:53 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:19:53 WARN  Running javac-semanticdb failed for file:///C:/Users/Gana/Downloads/library_system-main/library_system/library_system/pages/SignupPage.java. Output:
+
+2026.05.09 17:19:53 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:19:53 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:19:53 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:19:54 WARN  Running javac-semanticdb failed for file:///C:/Users/Gana/Downloads/library_system-main/library_system/library_system/pages/SignupPage.java. Output:
+
+2026.05.09 17:19:54 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:19:54 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:19:54 WARN  Running javac-semanticdb failed for file:///C:/Users/Gana/Downloads/library_system-main/library_system/library_system/pages/SignupPage.java. Output:
+
+2026.05.09 17:19:55 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+May 09, 2026 5:19:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 230
+2026.05.09 17:19:56 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:19:56 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:19:56 WARN  Running javac-semanticdb failed for file:///C:/Users/Gana/Downloads/library_system-main/library_system/library_system/pages/SignupPage.java. Output:
+
+2026.05.09 17:19:56 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:19:56 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:19:56 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:19:56 WARN  Running javac-semanticdb failed for file:///C:/Users/Gana/Downloads/library_system-main/library_system/library_system/pages/SignupPage.java. Output:
+
+May 09, 2026 5:19:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 243
+2026.05.09 17:19:57 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:19:57 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:19:57 WARN  Running javac-semanticdb failed for file:///C:/Users/Gana/Downloads/library_system-main/library_system/library_system/pages/SignupPage.java. Output:
+
+2026.05.09 17:19:57 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:19:58 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:19:57 WARN  Running javac-semanticdb failed for file:///C:/Users/Gana/Downloads/library_system-main/library_system/library_system/pages/SignupPage.java. Output:
+
+2026.05.09 17:19:57 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:19:59 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:19:59 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:19:59 WARN  Running javac-semanticdb failed for file:///C:/Users/Gana/Downloads/library_system-main/library_system/library_system/pages/SignupPage.java. Output:
+
+2026.05.09 17:20:12 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:20:12 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:20:13 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:20:13 WARN  Running javac-semanticdb failed for file:///C:/Users/Gana/Downloads/library_system-main/library_system/library_system/pages/SignupPage.java. Output:
+
+2026.05.09 17:20:14 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:20:15 WARN  no build target for: C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java
+2026.05.09 17:20:15 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:20:27 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\utils\Navigator.java. Using fallback presentation compiler.
+2026.05.09 17:20:29 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\LoginPage.java. Using fallback presentation compiler.
+2026.05.09 17:20:29 WARN  no build target for: C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\LoginPage.java
+2026.05.09 17:20:29 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\LoginPage.java. Using fallback presentation compiler.
+May 09, 2026 5:20:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 276
+May 09, 2026 5:20:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 277
+2026.05.09 17:20:30 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\LoginPage.java. Using fallback presentation compiler.
+2026.05.09 17:20:30 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\LoginPage.java. Using fallback presentation compiler.
+May 09, 2026 5:20:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 282
+2026.05.09 17:20:30 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\LoginPage.java. Using fallback presentation compiler.
+May 09, 2026 5:20:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 283
+2026.05.09 17:20:30 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\LoginPage.java. Using fallback presentation compiler.
+2026.05.09 17:20:30 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\LoginPage.java. Using fallback presentation compiler.
+2026.05.09 17:20:30 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\LoginPage.java. Using fallback presentation compiler.
+2026.05.09 17:20:31 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\LoginPage.java. Using fallback presentation compiler.
+May 09, 2026 5:20:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 289
+2026.05.09 17:20:33 WARN  no build target for: C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\LoginPage.java
+2026.05.09 17:20:33 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\LoginPage.java. Using fallback presentation compiler.
+2026.05.09 17:20:35 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\LoginPage.java. Using fallback presentation compiler.
+2026.05.09 17:21:58 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\LoginPage.java. Using fallback presentation compiler.
+2026.05.09 17:22:00 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\LoginPage.java. Using fallback presentation compiler.
+May 09, 2026 5:22:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: begin -1, end 2679, length 3948
+java.lang.StringIndexOutOfBoundsException: begin -1, end 2679, length 3948
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:4606)
+	at java.base/java.lang.String.substring(String.java:2709)
+	at scala.meta.internal.pc.JavaMetalsGlobal.findIndentifierStartAndEnd(JavaMetalsGlobal.scala:87)
+	at scala.meta.internal.pc.JavaMetalsGlobal.isAtIdentifier(JavaMetalsGlobal.scala:137)
+	at scala.meta.internal.pc.JavaDocumentHighlightProvider.atIdentifier$1(JavaDocumentHighlightProvider.scala:53)
+	at scala.meta.internal.pc.JavaDocumentHighlightProvider.documentHighlight(JavaDocumentHighlightProvider.scala:55)
+	at scala.meta.internal.pc.JavaDocumentHighlightProvider.documentHighlight(JavaDocumentHighlightProvider.scala:25)
+	at scala.meta.internal.pc.JavaPresentationCompiler.documentHighlight(JavaPresentationCompiler.scala:112)
+	at scala.meta.internal.metals.Compilers.$anonfun$documentHighlight$1(Compilers.scala:908)
+	at scala.meta.internal.metals.Compilers.$anonfun$withPCAndAdjustLsp$4(Compilers.scala:1543)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.Compilers.$anonfun$withPCAndAdjustLsp$3(Compilers.scala:1543)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.Compilers.withPCAndAdjustLsp(Compilers.scala:1535)
+	at scala.meta.internal.metals.Compilers.documentHighlight(Compilers.scala:903)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$documentHighlights$1(MetalsLspService.scala:1021)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLspService.documentHighlights(MetalsLspService.scala:1020)
+	at scala.meta.internal.metals.WorkspaceLspService.documentHighlights(WorkspaceLspService.scala:541)
+	at scala.meta.metals.lsp.DelegatingScalaService.documentHighlights(DelegatingScalaService.scala:83)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:128)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:265)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:195)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+2026.05.09 17:22:00 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\LoginPage.java. Using fallback presentation compiler.
+2026.05.09 17:22:01 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\LoginPage.java. Using fallback presentation compiler.
+2026.05.09 17:22:01 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\LoginPage.java. Using fallback presentation compiler.
+2026.05.09 17:22:02 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\LoginPage.java. Using fallback presentation compiler.
+2026.05.09 17:22:02 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\LoginPage.java. Using fallback presentation compiler.
+2026.05.09 17:22:03 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\LoginPage.java. Using fallback presentation compiler.
+2026.05.09 17:22:03 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\LoginPage.java. Using fallback presentation compiler.
+2026.05.09 17:22:03 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\LoginPage.java. Using fallback presentation compiler.
+2026.05.09 17:22:03 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\LoginPage.java. Using fallback presentation compiler.
+2026.05.09 17:22:04 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\LoginPage.java. Using fallback presentation compiler.
+2026.05.09 17:22:04 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\LoginPage.java. Using fallback presentation compiler.
+2026.05.09 17:22:04 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\LoginPage.java. Using fallback presentation compiler.
+2026.05.09 17:22:04 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\LoginPage.java. Using fallback presentation compiler.
+2026.05.09 17:22:08 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\LoginPage.java. Using fallback presentation compiler.
+2026.05.09 17:22:08 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\LoginPage.java. Using fallback presentation compiler.
+2026.05.09 17:22:08 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\LoginPage.java. Using fallback presentation compiler.
+2026.05.09 17:22:08 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\LoginPage.java. Using fallback presentation compiler.
+2026.05.09 17:22:09 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\LoginPage.java. Using fallback presentation compiler.
+2026.05.09 17:22:09 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\LoginPage.java. Using fallback presentation compiler.
+2026.05.09 17:22:10 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\LoginPage.java. Using fallback presentation compiler.
+2026.05.09 17:22:10 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:22:10 WARN  no build target for: C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java
+2026.05.09 17:22:10 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:22:11 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:22:10 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:22:13 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:22:13 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\Main.java. Using fallback presentation compiler.
+2026.05.09 17:22:13 WARN  no build target for: C:\Users\Gana\Downloads\library_system-main\library_system\library_system\Main.java
+May 09, 2026 5:22:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 341
+2026.05.09 17:22:13 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\Main.java. Using fallback presentation compiler.
+2026.05.09 17:22:14 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\Main.java. Using fallback presentation compiler.
+2026.05.09 17:22:15 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\Main.java. Using fallback presentation compiler.
+2026.05.09 17:23:13 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\ProfilePage.java. Using fallback presentation compiler.
+2026.05.09 17:23:13 WARN  no build target for: C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\ProfilePage.java
+2026.05.09 17:23:13 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\ProfilePage.java. Using fallback presentation compiler.
+2026.05.09 17:23:13 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\ProfilePage.java. Using fallback presentation compiler.
+2026.05.09 17:23:13 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\ProfilePage.java. Using fallback presentation compiler.
+May 09, 2026 5:23:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 355
+May 09, 2026 5:23:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 357
+2026.05.09 17:23:15 INFO  time: code lens generation in 1.08s
+2026.05.09 17:23:15 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\ProfilePage.java. Using fallback presentation compiler.
+2026.05.09 17:23:15 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\ProfilePage.java. Using fallback presentation compiler.
+May 09, 2026 5:23:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 360
+May 09, 2026 5:23:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 361
+2026.05.09 17:23:15 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\ProfilePage.java. Using fallback presentation compiler.
+2026.05.09 17:23:15 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\ProfilePage.java. Using fallback presentation compiler.
+2026.05.09 17:23:15 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\ProfilePage.java. Using fallback presentation compiler.
+May 09, 2026 5:23:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 362
+2026.05.09 17:23:17 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\ProfilePage.java. Using fallback presentation compiler.
+May 09, 2026 5:23:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 365
+2026.05.09 17:23:17 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\ProfilePage.java. Using fallback presentation compiler.
+2026.05.09 17:23:17 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\ProfilePage.java. Using fallback presentation compiler.
+2026.05.09 17:23:28 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\ProfilePage.java. Using fallback presentation compiler.
+2026.05.09 17:23:28 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\ProfilePage.java. Using fallback presentation compiler.
+2026.05.09 17:23:28 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\ProfilePage.java. Using fallback presentation compiler.
+2026.05.09 17:23:28 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\ProfilePage.java. Using fallback presentation compiler.
+2026.05.09 17:23:29 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\ProfilePage.java. Using fallback presentation compiler.
+2026.05.09 17:23:29 INFO  Created report: Optional[file:///C:/Users/Gana/Downloads/library_system-main/library_system/library_system/pages/ProfilePage.java]
+2026.05.09 17:23:29 INFO  empty definition using pc, found symbol in pc: java/awt/Font#PLAIN. (full report at: "C:\Users\Gana\Downloads\library_system-main\library_system\.metals\.reports\metals-full\2026-05-09\r_empty-definition_17-23-29-396.md")
+2026.05.09 17:23:29 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\ProfilePage.java. Using fallback presentation compiler.
+2026.05.09 17:23:29 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\ProfilePage.java. Using fallback presentation compiler.
+2026.05.09 17:23:30 WARN  no build target for: C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\ProfilePage.java
+2026.05.09 17:23:30 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\ProfilePage.java. Using fallback presentation compiler.
+2026.05.09 17:23:31 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\ProfilePage.java. Using fallback presentation compiler.
+2026.05.09 17:23:31 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\ProfilePage.java. Using fallback presentation compiler.
+May 09, 2026 5:23:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 383
+2026.05.09 17:23:36 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\ProfilePage.java. Using fallback presentation compiler.
+2026.05.09 17:23:36 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\ProfilePage.java. Using fallback presentation compiler.
+2026.05.09 17:23:36 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\ProfilePage.java. Using fallback presentation compiler.
+2026.05.09 17:23:37 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\ProfilePage.java. Using fallback presentation compiler.
+2026.05.09 17:23:37 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\ProfilePage.java. Using fallback presentation compiler.
+2026.05.09 17:23:37 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\ProfilePage.java. Using fallback presentation compiler.
+May 09, 2026 5:23:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: begin -1, end 1114, length 1117
+java.lang.StringIndexOutOfBoundsException: begin -1, end 1114, length 1117
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:4606)
+	at java.base/java.lang.String.substring(String.java:2709)
+	at scala.meta.internal.pc.JavaMetalsGlobal.findIndentifierStartAndEnd(JavaMetalsGlobal.scala:87)
+	at scala.meta.internal.pc.JavaMetalsGlobal.isAtIdentifier(JavaMetalsGlobal.scala:137)
+	at scala.meta.internal.pc.JavaDocumentHighlightProvider.atIdentifier$1(JavaDocumentHighlightProvider.scala:53)
+	at scala.meta.internal.pc.JavaDocumentHighlightProvider.documentHighlight(JavaDocumentHighlightProvider.scala:55)
+	at scala.meta.internal.pc.JavaDocumentHighlightProvider.documentHighlight(JavaDocumentHighlightProvider.scala:25)
+	at scala.meta.internal.pc.JavaPresentationCompiler.documentHighlight(JavaPresentationCompiler.scala:112)
+	at scala.meta.internal.metals.Compilers.$anonfun$documentHighlight$1(Compilers.scala:908)
+	at scala.meta.internal.metals.Compilers.$anonfun$withPCAndAdjustLsp$4(Compilers.scala:1543)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.Compilers.$anonfun$withPCAndAdjustLsp$3(Compilers.scala:1543)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.Compilers.withPCAndAdjustLsp(Compilers.scala:1535)
+	at scala.meta.internal.metals.Compilers.documentHighlight(Compilers.scala:903)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$documentHighlights$1(MetalsLspService.scala:1021)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLspService.documentHighlights(MetalsLspService.scala:1020)
+	at scala.meta.internal.metals.WorkspaceLspService.documentHighlights(WorkspaceLspService.scala:541)
+	at scala.meta.metals.lsp.DelegatingScalaService.documentHighlights(DelegatingScalaService.scala:83)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:128)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:265)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:195)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+2026.05.09 17:23:37 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\ProfilePage.java. Using fallback presentation compiler.
+2026.05.09 17:23:43 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\ProfilePage.java. Using fallback presentation compiler.
+2026.05.09 17:23:43 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\ProfilePage.java. Using fallback presentation compiler.
+May 09, 2026 5:23:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: begin -1, end 1114, length 1117
+java.lang.StringIndexOutOfBoundsException: begin -1, end 1114, length 1117
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:4606)
+	at java.base/java.lang.String.substring(String.java:2709)
+	at scala.meta.internal.pc.JavaMetalsGlobal.findIndentifierStartAndEnd(JavaMetalsGlobal.scala:87)
+	at scala.meta.internal.pc.JavaMetalsGlobal.isAtIdentifier(JavaMetalsGlobal.scala:137)
+	at scala.meta.internal.pc.JavaDocumentHighlightProvider.atIdentifier$1(JavaDocumentHighlightProvider.scala:53)
+	at scala.meta.internal.pc.JavaDocumentHighlightProvider.documentHighlight(JavaDocumentHighlightProvider.scala:55)
+	at scala.meta.internal.pc.JavaDocumentHighlightProvider.documentHighlight(JavaDocumentHighlightProvider.scala:25)
+	at scala.meta.internal.pc.JavaPresentationCompiler.documentHighlight(JavaPresentationCompiler.scala:112)
+	at scala.meta.internal.metals.Compilers.$anonfun$documentHighlight$1(Compilers.scala:908)
+	at scala.meta.internal.metals.Compilers.$anonfun$withPCAndAdjustLsp$4(Compilers.scala:1543)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.Compilers.$anonfun$withPCAndAdjustLsp$3(Compilers.scala:1543)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.Compilers.withPCAndAdjustLsp(Compilers.scala:1535)
+	at scala.meta.internal.metals.Compilers.documentHighlight(Compilers.scala:903)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$documentHighlights$1(MetalsLspService.scala:1021)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLspService.documentHighlights(MetalsLspService.scala:1020)
+	at scala.meta.internal.metals.WorkspaceLspService.documentHighlights(WorkspaceLspService.scala:541)
+	at scala.meta.metals.lsp.DelegatingScalaService.documentHighlights(DelegatingScalaService.scala:83)
+	at jdk.internal.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:128)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:265)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:195)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+2026.05.09 17:23:43 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\ProfilePage.java. Using fallback presentation compiler.
+2026.05.09 17:23:43 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\ProfilePage.java. Using fallback presentation compiler.
+2026.05.09 17:23:43 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\ProfilePage.java. Using fallback presentation compiler.
+2026.05.09 17:23:45 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\ProfilePage.java. Using fallback presentation compiler.
+2026.05.09 17:24:00 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\ProfilePage.java. Using fallback presentation compiler.
+2026.05.09 17:24:00 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\ProfilePage.java. Using fallback presentation compiler.
+2026.05.09 17:24:11 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\ProfilePage.java. Using fallback presentation compiler.
+2026.05.09 17:24:24 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\ProfilePage.java. Using fallback presentation compiler.
+2026.05.09 17:24:27 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\ProfilePage.java. Using fallback presentation compiler.
+2026.05.09 17:24:32 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\ProfilePage.java. Using fallback presentation compiler.
+2026.05.09 17:24:32 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\ProfilePage.java. Using fallback presentation compiler.
+2026.05.09 17:24:35 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\ProfilePage.java. Using fallback presentation compiler.
+2026.05.09 17:28:43 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\ProfilePage.java. Using fallback presentation compiler.
+2026.05.09 17:28:55 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\ProfilePage.java. Using fallback presentation compiler.
+2026.05.09 17:28:55 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\ProfilePage.java. Using fallback presentation compiler.
+2026.05.09 17:29:11 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\ProfilePage.java. Using fallback presentation compiler.
+2026.05.09 17:29:11 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\ProfilePage.java. Using fallback presentation compiler.
+2026.05.09 17:29:11 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\ProfilePage.java. Using fallback presentation compiler.
+2026.05.09 17:29:13 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\ProfilePage.java. Using fallback presentation compiler.
+2026.05.09 17:29:13 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\ProfilePage.java. Using fallback presentation compiler.
+2026.05.09 17:29:13 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\ProfilePage.java. Using fallback presentation compiler.
+2026.05.09 17:29:14 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\ProfilePage.java. Using fallback presentation compiler.
+May 09, 2026 5:29:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 431
+2026.05.09 17:29:14 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\ProfilePage.java. Using fallback presentation compiler.
+2026.05.09 17:29:17 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\ProfilePage.java. Using fallback presentation compiler.
+2026.05.09 17:29:17 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\ProfilePage.java. Using fallback presentation compiler.
+2026.05.09 17:29:19 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\ProfilePage.java. Using fallback presentation compiler.
+2026.05.09 17:29:20 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\ProfilePage.java. Using fallback presentation compiler.
+2026.05.09 17:29:23 INFO  Shutting down server
+2026.05.09 17:29:23 INFO  Memory monitor stopped
+2026.05.09 17:29:23 INFO  shutting down Metals
+2026.05.09 17:30:49 INFO  Started: Metals version 1.6.7+33-d73a6c3e-SNAPSHOT in folders 'C:\Users\Gana\Downloads\library_system-main\library_system' for client Visual Studio Code 1.119.0.
+2026.05.09 17:30:50 INFO  time: initialize in 0.16s
+2026.05.09 17:30:49 INFO  Memory monitor started
+2026.05.09 17:30:59 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.05.09 17:31:00 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\ProfilePage.java. Using fallback presentation compiler.
+2026.05.09 17:31:02 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\ProfilePage.java. Using fallback presentation compiler.
+2026.05.09 17:31:05 WARN  no build tool detected in workspace 'C:\Users\Gana\Downloads\library_system-main\library_system'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2026.05.09 17:31:05 WARN  Build server is not auto-connectable.
+2026.05.09 17:31:06 WARN  no build target for: C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\ProfilePage.java
+2026.05.09 17:31:05 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\ProfilePage.java. Using fallback presentation compiler.
+2026.05.09 17:31:10 INFO  time: code lens generation in 4.38s
+2026.05.09 17:31:16 INFO  restarted 1 presentation compiler
+2026.05.09 17:35:37 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\ProfilePage.java. Using fallback presentation compiler.
+2026.05.09 17:47:39 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\ProfilePage.java. Using fallback presentation compiler.
+May 09, 2026 5:47:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 13
+2026.05.09 17:47:39 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\ProfilePage.java. Using fallback presentation compiler.
+May 09, 2026 5:47:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14
+May 09, 2026 5:47:41 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.05.09 17:47:43 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\ProfilePage.java. Using fallback presentation compiler.
+2026.05.09 17:47:53 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\ProfilePage.java. Using fallback presentation compiler.
+2026.05.09 17:49:59 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\ProfilePage.java. Using fallback presentation compiler.
+2026.05.09 17:49:59 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\ProfilePage.java. Using fallback presentation compiler.
+2026.05.09 17:51:18 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\ProfilePage.java. Using fallback presentation compiler.
+2026.05.09 17:51:24 WARN  no build target for: C:\Users\Gana\Downloads\library_system-main\library_system\library_system\Main.java
+2026.05.09 17:51:24 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\Main.java. Using fallback presentation compiler.
+2026.05.09 17:51:24 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\Main.java. Using fallback presentation compiler.
+2026.05.09 17:51:25 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\Main.java. Using fallback presentation compiler.
+2026.05.09 17:51:25 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\Main.java. Using fallback presentation compiler.
+May 09, 2026 5:51:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 22
+May 09, 2026 5:51:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 25
+2026.05.09 17:51:28 WARN  no build target for: C:\Users\Gana\Downloads\library_system-main\library_system\library_system\Main.java
+2026.05.09 17:51:28 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\Main.java. Using fallback presentation compiler.
+May 09, 2026 5:51:33 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.05.09 17:51:33 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\ProfilePage.java. Using fallback presentation compiler.
+2026.05.09 17:51:33 WARN  no build target for: C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\ProfilePage.java
+2026.05.09 17:51:35 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\ProfilePage.java. Using fallback presentation compiler.
+2026.05.09 17:51:35 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\ProfilePage.java. Using fallback presentation compiler.
+May 09, 2026 5:51:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 34
+2026.05.09 17:51:35 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\ProfilePage.java. Using fallback presentation compiler.
+2026.05.09 17:51:48 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\Main.java. Using fallback presentation compiler.
+2026.05.09 17:51:48 WARN  no build target for: C:\Users\Gana\Downloads\library_system-main\library_system\library_system\Main.java
+2026.05.09 17:51:48 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\Main.java. Using fallback presentation compiler.
+2026.05.09 17:51:48 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\Main.java. Using fallback presentation compiler.
+2026.05.09 17:51:48 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\Main.java. Using fallback presentation compiler.
+2026.05.09 17:51:49 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\Main.java. Using fallback presentation compiler.
+2026.05.09 17:51:50 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\ProfilePage.java. Using fallback presentation compiler.
+2026.05.09 17:51:50 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\ProfilePage.java. Using fallback presentation compiler.
+2026.05.09 17:51:51 WARN  no build target for: C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\ProfilePage.java
+2026.05.09 17:51:50 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\ProfilePage.java. Using fallback presentation compiler.
+2026.05.09 17:51:52 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\ProfilePage.java. Using fallback presentation compiler.
+2026.05.09 17:51:52 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\ProfilePage.java. Using fallback presentation compiler.
+2026.05.09 17:51:52 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\ProfilePage.java. Using fallback presentation compiler.
+2026.05.09 17:51:52 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\ProfilePage.java. Using fallback presentation compiler.
+2026.05.09 17:51:53 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\Main.java. Using fallback presentation compiler.
+2026.05.09 17:51:53 WARN  no build target for: C:\Users\Gana\Downloads\library_system-main\library_system\library_system\Main.java
+May 09, 2026 5:51:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 60
+2026.05.09 17:51:53 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\Main.java. Using fallback presentation compiler.
+May 09, 2026 5:51:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 61
+2026.05.09 17:51:53 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\Main.java. Using fallback presentation compiler.
+2026.05.09 17:51:53 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\Main.java. Using fallback presentation compiler.
+2026.05.09 17:52:06 WARN  no build target for: C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java
+2026.05.09 17:52:06 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:52:06 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:52:06 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:52:06 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:52:07 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+May 09, 2026 5:52:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 67
+May 09, 2026 5:52:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 68
+May 09, 2026 5:52:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 71
+2026.05.09 17:52:08 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+May 09, 2026 5:52:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 72
+2026.05.09 17:52:10 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:52:11 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java. Using fallback presentation compiler.
+2026.05.09 17:52:11 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\Main.java. Using fallback presentation compiler.
+2026.05.09 17:52:11 WARN  no build target for: C:\Users\Gana\Downloads\library_system-main\library_system\library_system\Main.java
+2026.05.09 17:52:11 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\Main.java. Using fallback presentation compiler.
+2026.05.09 17:52:11 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\Main.java. Using fallback presentation compiler.
+2026.05.09 17:52:12 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\Main.java. Using fallback presentation compiler.
+2026.05.09 17:52:12 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\Main.java. Using fallback presentation compiler.
+2026.05.09 17:52:14 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\Main.java. Using fallback presentation compiler.
+2026.05.09 17:52:14 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\Main.java. Using fallback presentation compiler.
+2026.05.09 17:53:52 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\Main.java. Using fallback presentation compiler.
+2026.05.09 17:54:03 INFO  Shutting down server
+2026.05.09 17:54:03 INFO  Memory monitor stopped
+2026.05.09 17:54:03 INFO  shutting down Metals
+2026.05.09 17:55:07 INFO  Started: Metals version 1.6.7+33-d73a6c3e-SNAPSHOT in folders 'C:\Users\Gana\Downloads\library_system-main\library_system' for client Visual Studio Code 1.119.0.
+2026.05.09 17:55:07 INFO  Memory monitor started
+2026.05.09 17:55:19 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.05.09 17:55:21 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\Main.java. Using fallback presentation compiler.
+2026.05.09 17:55:23 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\Main.java. Using fallback presentation compiler.
+2026.05.09 17:55:23 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\Main.java. Using fallback presentation compiler.
+2026.05.09 17:55:25 WARN  no build tool detected in workspace 'C:\Users\Gana\Downloads\library_system-main\library_system'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2026.05.09 17:55:25 WARN  Build server is not auto-connectable.
+2026.05.09 17:55:26 WARN  no build target for: C:\Users\Gana\Downloads\library_system-main\library_system\library_system\Main.java
+2026.05.09 17:55:28 INFO  time: code lens generation in 2.99s
+May 09, 2026 5:55:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+2026.05.09 17:55:29 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\Main.java. Using fallback presentation compiler.
+2026.05.09 17:55:29 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\Main.java. Using fallback presentation compiler.
+2026.05.09 17:55:29 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\Main.java. Using fallback presentation compiler.
+2026.05.09 17:55:29 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\Main.java. Using fallback presentation compiler.
+May 09, 2026 5:55:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10
+2026.05.09 17:55:28 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\Main.java. Using fallback presentation compiler.
+2026.05.09 17:55:46 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\Main.java. Using fallback presentation compiler.
+2026.05.09 17:56:34 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\Main.java. Using fallback presentation compiler.
+2026.05.09 18:05:31 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\Main.java. Using fallback presentation compiler.
+May 09, 2026 6:05:32 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 09, 2026 6:05:40 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.05.09 18:05:40 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\Main.java. Using fallback presentation compiler.
+2026.05.09 18:05:54 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\Main.java. Using fallback presentation compiler.
+2026.05.09 18:05:56 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\Main.java. Using fallback presentation compiler.
+2026.05.09 18:06:01 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\Main.java. Using fallback presentation compiler.
+May 09, 2026 6:07:09 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.05.09 18:07:10 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\Main.java. Using fallback presentation compiler.
+2026.05.09 18:08:20 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\Main.java. Using fallback presentation compiler.
+2026.05.09 18:08:29 WARN  no build target for: C:\Users\Gana\Downloads\library_system-main\library_system\library_system\TestConnection.java
+2026.05.09 18:08:29 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\TestConnection.java. Using fallback presentation compiler.
+2026.05.09 18:08:31 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\TestConnection.java. Using fallback presentation compiler.
+2026.05.09 18:08:32 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\TestConnection.java. Using fallback presentation compiler.
+2026.05.09 18:08:32 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\TestConnection.java. Using fallback presentation compiler.
+May 09, 2026 6:08:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 39
+May 09, 2026 6:08:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 43
+2026.05.09 18:08:34 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\TestConnection.java. Using fallback presentation compiler.
+May 09, 2026 6:08:34 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.05.09 18:08:34 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\TestConnection.java. Using fallback presentation compiler.
+2026.05.09 18:08:41 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\TestConnection.java. Using fallback presentation compiler.
+2026.05.09 18:08:53 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\TestConnection.java. Using fallback presentation compiler.
+2026.05.09 18:08:53 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\TestConnection.java. Using fallback presentation compiler.
+May 09, 2026 6:08:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 53
+2026.05.09 18:08:54 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\TestConnection.java. Using fallback presentation compiler.
+2026.05.09 18:08:54 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\TestConnection.java. Using fallback presentation compiler.
+2026.05.09 18:08:56 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\TestConnection.java. Using fallback presentation compiler.
+2026.05.09 18:16:25 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\TestConnection.java. Using fallback presentation compiler.
+2026.05.09 18:16:25 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\TestConnection.java. Using fallback presentation compiler.
+2026.05.09 18:16:37 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\TestConnection.java. Using fallback presentation compiler.
+2026.05.09 18:16:37 WARN  no build target for: C:\Users\Gana\Downloads\library_system-main\library_system\library_system\TestConnection.java
+2026.05.09 18:16:37 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\TestConnection.java. Using fallback presentation compiler.
+2026.05.09 18:16:37 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\TestConnection.java. Using fallback presentation compiler.
+May 09, 2026 6:16:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 63
+2026.05.09 18:16:37 INFO  no build target found for C:\Users\Gana\Downloads\library_system-main\library_system\library_system\TestConnection.java. Using fallback presentation compiler.
+May 09, 2026 6:16:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "class:/c%3A/Users/Gana/Downloads/library_system-main/library_system/out/library_system/Main.class"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "class" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:149)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:209)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:787)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:784)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:808)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:225)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+

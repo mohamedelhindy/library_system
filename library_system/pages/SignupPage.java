@@ -1,250 +1,193 @@
 package library_system.pages;
 
-import java.awt.*;
-import javax.swing.*;
-import javax.swing.border.EmptyBorder;
-
-import library_system.services.UserService;
+import library_system.database.DBConnection;
 import library_system.utils.Navigator;
 
-public class SignupPage extends JPanel {
+import javax.swing.*;
+import java.awt.*;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.Statement;
 
-    private JLabel title;
-    private JLabel subtitle;
-    private JLabel errorLabel;
+public class SignupPage extends JPanel {
 
     private JTextField usernameField;
     private JTextField emailField;
     private JPasswordField passwordField;
-    private JComboBox<String> roleDropdown;
-
-    private JButton signupBtn;
-    private JButton loginBtn;
+    private JComboBox<String> roleBox;
+    private JButton signupButton;
+    private JButton loginButton;
 
     public SignupPage() {
-        initializeComponents();
-        styleComponents();
-        layoutComponents();
-        addListeners();
-    }
+        setLayout(null);
+        setBackground(new Color(25, 45, 65));
 
-    private void initializeComponents() {
-        title = new JLabel("Create Account");
-        subtitle = new JLabel("Join the Library System and manage your books easily");
-        errorLabel = new JLabel(" ");
+        JPanel card = new JPanel();
+        card.setLayout(null);
+        card.setBackground(new Color(55, 72, 92));
+        card.setBounds(200, 50, 400, 480);
+        add(card);
+
+        JLabel title = new JLabel("Create Account");
+        title.setFont(new Font("Arial", Font.BOLD, 34));
+        title.setForeground(Color.WHITE);
+        title.setBounds(65, 35, 300, 45);
+        card.add(title);
+
+        JLabel subtitle = new JLabel("Join the Library System and manage your books easily");
+        subtitle.setFont(new Font("Arial", Font.PLAIN, 13));
+        subtitle.setForeground(Color.WHITE);
+        subtitle.setBounds(45, 85, 330, 25);
+        card.add(subtitle);
+
+        JLabel usernameLabel = new JLabel("Username");
+        usernameLabel.setForeground(Color.WHITE);
+        usernameLabel.setFont(new Font("Arial", Font.BOLD, 13));
+        usernameLabel.setBounds(50, 130, 300, 25);
+        card.add(usernameLabel);
 
         usernameField = new JTextField();
+        usernameField.setBounds(50, 155, 300, 35);
+        card.add(usernameField);
+
+        JLabel emailLabel = new JLabel("Email");
+        emailLabel.setForeground(Color.WHITE);
+        emailLabel.setFont(new Font("Arial", Font.BOLD, 13));
+        emailLabel.setBounds(50, 205, 300, 25);
+        card.add(emailLabel);
+
         emailField = new JTextField();
+        emailField.setBounds(50, 230, 300, 35);
+        card.add(emailField);
+
+        JLabel passwordLabel = new JLabel("Password");
+        passwordLabel.setForeground(Color.WHITE);
+        passwordLabel.setFont(new Font("Arial", Font.BOLD, 13));
+        passwordLabel.setBounds(50, 280, 300, 25);
+        card.add(passwordLabel);
+
         passwordField = new JPasswordField();
-        roleDropdown = new JComboBox<>(new String[]{"Member", "Librarian", "Admin"});
+        passwordField.setBounds(50, 305, 300, 35);
+        card.add(passwordField);
 
-        signupBtn = new JButton("Sign Up");
-        loginBtn = new JButton("Already have an account? Log In");
+        JLabel roleLabel = new JLabel("Role");
+        roleLabel.setForeground(Color.WHITE);
+        roleLabel.setFont(new Font("Arial", Font.BOLD, 13));
+        roleLabel.setBounds(50, 355, 300, 25);
+        card.add(roleLabel);
+
+        roleBox = new JComboBox<>(new String[]{"Member", "Librarian", "Admin"});
+        roleBox.setBounds(50, 380, 300, 35);
+        card.add(roleBox);
+
+        signupButton = new JButton("Sign Up");
+        signupButton.setBounds(50, 430, 300, 35);
+        signupButton.setBackground(new Color(90, 170, 220));
+        signupButton.setForeground(Color.WHITE);
+        signupButton.setFocusPainted(false);
+        card.add(signupButton);
+
+        loginButton = new JButton("Already have an account? Log In");
+        loginButton.setBounds(50, 465, 300, 25);
+        loginButton.setBorderPainted(false);
+        loginButton.setContentAreaFilled(false);
+        loginButton.setForeground(Color.WHITE);
+        loginButton.setFocusPainted(false);
+        card.add(loginButton);
+
+        signupButton.addActionListener(e -> signup());
+        loginButton.addActionListener(e -> Navigator.navigateTo(new LoginPage()));
     }
 
-    private void styleComponents() {
-        setOpaque(false);
+    private void signup() {
+        String username = usernameField.getText().trim();
+        String email = emailField.getText().trim();
+        String password = new String(passwordField.getPassword());
+        String role = roleBox.getSelectedItem().toString();
 
-        title.setFont(new Font("Segoe UI", Font.BOLD, 42));
-        title.setForeground(Color.WHITE);
-        title.setAlignmentX(CENTER_ALIGNMENT);
+        if (username.isEmpty() || email.isEmpty() || password.isEmpty()) {
+            JOptionPane.showMessageDialog(this, "Please fill all fields");
+            return;
+        }
 
-        subtitle.setFont(new Font("Segoe UI", Font.PLAIN, 15));
-        subtitle.setForeground(new Color(220, 230, 255));
-        subtitle.setAlignmentX(CENTER_ALIGNMENT);
+        if (emailExists(email)) {
+            JOptionPane.showMessageDialog(this, "This email already exists");
+            return;
+        }
 
-        errorLabel.setFont(new Font("Segoe UI", Font.PLAIN, 14));
-        errorLabel.setForeground(new Color(255, 120, 120));
-        errorLabel.setAlignmentX(CENTER_ALIGNMENT);
+        boolean success = signupUser(username, email, password, role);
 
-        styleTextField(usernameField);
-        styleTextField(emailField);
-        styleTextField(passwordField);
-
-        roleDropdown.setMaximumSize(new Dimension(360, 42));
-        roleDropdown.setPreferredSize(new Dimension(360, 42));
-        roleDropdown.setFont(new Font("Segoe UI", Font.PLAIN, 15));
-        roleDropdown.setBackground(Color.WHITE);
-        roleDropdown.setForeground(new Color(30, 40, 60));
-        roleDropdown.setAlignmentX(CENTER_ALIGNMENT);
-
-        styleMainButton(signupBtn);
-        styleLinkButton(loginBtn);
+        if (success) {
+            JOptionPane.showMessageDialog(this, "Account created successfully!");
+            Navigator.navigateTo(new LoginPage());
+        } else {
+            JOptionPane.showMessageDialog(this, "Signup failed");
+        }
     }
 
-    private void styleTextField(JTextField field) {
-        field.setMaximumSize(new Dimension(360, 42));
-        field.setPreferredSize(new Dimension(360, 42));
-        field.setFont(new Font("Segoe UI", Font.PLAIN, 15));
-        field.setForeground(new Color(30, 40, 60));
-        field.setBackground(Color.WHITE);
-        field.setCaretColor(new Color(36, 59, 85));
-        field.setBorder(BorderFactory.createCompoundBorder(
-                BorderFactory.createLineBorder(new Color(210, 225, 245), 1),
-                new EmptyBorder(8, 12, 8, 12)
-        ));
-        field.setAlignmentX(CENTER_ALIGNMENT);
+    private boolean emailExists(String email) {
+        String sql = "SELECT user_id FROM users WHERE email = ?";
+
+        try (Connection connection = DBConnection.getConnection();
+             PreparedStatement statement = connection.prepareStatement(sql)) {
+
+            statement.setString(1, email);
+            ResultSet result = statement.executeQuery();
+
+            return result.next();
+
+        } catch (Exception e) {
+            e.printStackTrace();
+            return true;
+        }
     }
 
-    private void styleMainButton(JButton button) {
-        button.setMaximumSize(new Dimension(360, 45));
-        button.setPreferredSize(new Dimension(360, 45));
-        button.setFont(new Font("Segoe UI", Font.BOLD, 16));
-        button.setForeground(Color.WHITE);
-        button.setBackground(new Color(93, 173, 226));
-        button.setFocusPainted(false);
-        button.setBorderPainted(false);
-        button.setCursor(new Cursor(Cursor.HAND_CURSOR));
-        button.setAlignmentX(CENTER_ALIGNMENT);
-    }
+    private boolean signupUser(String username, String email, String password, String role) {
+        String sql = "INSERT INTO users (name, email, password_hash, role) VALUES (?, ?, ?, ?)";
 
-    private void styleLinkButton(JButton button) {
-        button.setFont(new Font("Segoe UI", Font.PLAIN, 14));
-        button.setForeground(new Color(220, 230, 255));
-        button.setBackground(new Color(0, 0, 0, 0));
-        button.setOpaque(false);
-        button.setFocusPainted(false);
-        button.setBorderPainted(false);
-        button.setContentAreaFilled(false);
-        button.setCursor(new Cursor(Cursor.HAND_CURSOR));
-        button.setAlignmentX(CENTER_ALIGNMENT);
-    }
+        try (Connection connection = DBConnection.getConnection();
+             PreparedStatement statement = connection.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS)) {
 
-    private JLabel createLabel(String text) {
-        JLabel label = new JLabel(text);
-        label.setFont(new Font("Segoe UI", Font.BOLD, 14));
-        label.setForeground(Color.WHITE);
-        label.setAlignmentX(CENTER_ALIGNMENT);
-        label.setMaximumSize(new Dimension(360, 25));
-        return label;
-    }
+            statement.setString(1, username);
+            statement.setString(2, email);
+            statement.setString(3, password);
+            statement.setString(4, role);
 
-    private void layoutComponents() {
-        setLayout(new GridBagLayout());
+            int rowsInserted = statement.executeUpdate();
 
-        JPanel cardPanel = new JPanel();
-        cardPanel.setLayout(new BoxLayout(cardPanel, BoxLayout.Y_AXIS));
-        cardPanel.setOpaque(false);
-        cardPanel.setBorder(new EmptyBorder(35, 45, 35, 45));
-        cardPanel.setPreferredSize(new Dimension(520, 610));
+            if (rowsInserted > 0) {
+                ResultSet generatedKeys = statement.getGeneratedKeys();
 
-        cardPanel.add(title);
-        cardPanel.add(Box.createVerticalStrut(8));
-        cardPanel.add(subtitle);
-        cardPanel.add(Box.createVerticalStrut(30));
+                if (generatedKeys.next()) {
+                    int userId = generatedKeys.getInt(1);
+                    insertIntoRoleTable(connection, userId, role);
+                }
 
-        cardPanel.add(createLabel("Username"));
-        cardPanel.add(Box.createVerticalStrut(6));
-        cardPanel.add(usernameField);
-        cardPanel.add(Box.createVerticalStrut(16));
-
-        cardPanel.add(createLabel("Email"));
-        cardPanel.add(Box.createVerticalStrut(6));
-        cardPanel.add(emailField);
-        cardPanel.add(Box.createVerticalStrut(16));
-
-        cardPanel.add(createLabel("Password"));
-        cardPanel.add(Box.createVerticalStrut(6));
-        cardPanel.add(passwordField);
-        cardPanel.add(Box.createVerticalStrut(16));
-
-        cardPanel.add(createLabel("Role"));
-        cardPanel.add(Box.createVerticalStrut(6));
-        cardPanel.add(roleDropdown);
-        cardPanel.add(Box.createVerticalStrut(14));
-
-        cardPanel.add(errorLabel);
-        cardPanel.add(Box.createVerticalStrut(18));
-
-        cardPanel.add(signupBtn);
-        cardPanel.add(Box.createVerticalStrut(15));
-        cardPanel.add(loginBtn);
-
-        add(cardPanel);
-    }
-
-    private void addListeners() {
-        loginBtn.addActionListener(e -> Navigator.navigateTo(new LoginPage()));
-
-        signupBtn.addActionListener(e -> {
-            String username = usernameField.getText().trim();
-            String email = emailField.getText().trim();
-            String password = new String(passwordField.getPassword()).trim();
-            String role = (String) roleDropdown.getSelectedItem();
-
-            if (username.isEmpty() || email.isEmpty() || password.isEmpty()) {
-                errorLabel.setText("Please fill in all fields.");
-                return;
+                return true;
             }
 
-            if (!email.contains("@") || !email.contains(".")) {
-                errorLabel.setText("Please enter a valid email.");
-                return;
-            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
 
-            if (password.length() < 6) {
-                errorLabel.setText("Password must be at least 6 characters.");
-                return;
-            }
-
-            if (UserService.emailExists(email)) {
-                errorLabel.setText("Email already exists.");
-                return;
-            }
-
-            boolean success = UserService.signup(username, email, password, role);
-
-            if (success) {
-                JOptionPane.showMessageDialog(
-                        this,
-                        "Account created successfully!",
-                        "Success",
-                        JOptionPane.INFORMATION_MESSAGE
-                );
-
-                Navigator.navigateTo(new LoginPage());
-            } else {
-                errorLabel.setText("Signup failed. Please try again.");
-            }
-        });
+        return false;
     }
 
-    @Override
-    protected void paintComponent(Graphics g) {
-        super.paintComponent(g);
+    private void insertIntoRoleTable(Connection connection, int userId, String role) throws Exception {
+        String sql;
 
-        Graphics2D g2d = (Graphics2D) g.create();
+        if (role.equals("Admin")) {
+            sql = "INSERT INTO admins (user_id) VALUES (?)";
+        } else if (role.equals("Librarian")) {
+            sql = "INSERT INTO librarians (user_id) VALUES (?)";
+        } else {
+            sql = "INSERT INTO members (user_id) VALUES (?)";
+        }
 
-        int width = getWidth();
-        int height = getHeight();
-
-        g2d.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
-
-        GradientPaint background = new GradientPaint(
-                0, 0, new Color(20, 30, 48),
-                width, height, new Color(36, 59, 85)
-        );
-
-        g2d.setPaint(background);
-        g2d.fillRect(0, 0, width, height);
-
-        g2d.setColor(new Color(255, 255, 255, 25));
-        g2d.fillOval(-120, -120, 350, 350);
-
-        g2d.setColor(new Color(93, 173, 226, 35));
-        g2d.fillOval(width - 260, height - 260, 420, 420);
-
-        int cardWidth = 560;
-        int cardHeight = 650;
-        int cardX = width / 2 - cardWidth / 2;
-        int cardY = height / 2 - cardHeight / 2;
-
-        g2d.setColor(new Color(255, 255, 255, 30));
-        g2d.fillRoundRect(cardX, cardY, cardWidth, cardHeight, 40, 40);
-
-        g2d.setColor(new Color(255, 255, 255, 45));
-        g2d.drawRoundRect(cardX, cardY, cardWidth, cardHeight, 40, 40);
-
-        g2d.dispose();
+        try (PreparedStatement statement = connection.prepareStatement(sql)) {
+            statement.setInt(1, userId);
+            statement.executeUpdate();
+        }
     }
 }

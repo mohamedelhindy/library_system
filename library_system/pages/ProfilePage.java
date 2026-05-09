@@ -1,82 +1,36 @@
 package library_system.pages;
 
-import java.awt.*;
 import javax.swing.*;
-
-import library_system.components.Navbar;
-import library_system.models.User;
-import library_system.utils.Session;
+import java.awt.*;
 
 public class ProfilePage extends JPanel {
-    private JLabel title;
-    private JLabel usernameLabel;
-    private JLabel emailLabel;
-    private JLabel roleLabel;
 
     public ProfilePage() {
-        initializeComponents();
-        styleComponents();
-        layoutComponents();
-    }
+        setLayout(null);
+        setBackground(new Color(25, 45, 65));
 
-    private void initializeComponents() {
-        title = new JLabel("Profile");
-        
-        User currentUser = Session.getCurrentUser();
-
-        usernameLabel = new JLabel(
-            "Username: " + currentUser.getName()
-        );
-
-        emailLabel = new JLabel(
-            "Email: " + currentUser.getEmail()
-        );
-
-        roleLabel = new JLabel(
-            "Role: " + currentUser.getRole()
-        );
-    }
-
-    private void styleComponents() {
-        setBackground(Color.BLACK);
-
-        title.setFont(new Font("Arial", Font.BOLD, 60));
+        JLabel title = new JLabel("Profile Page");
+        title.setFont(new Font("Arial", Font.BOLD, 32));
         title.setForeground(Color.WHITE);
-        title.setAlignmentX(CENTER_ALIGNMENT);
+        title.setBounds(280, 80, 300, 50);
+        add(title);
 
-        Font infoFont = new Font("Arial", Font.PLAIN, 24);
+        JLabel name = new JLabel("Name: Guest");
+        name.setFont(new Font("Arial", Font.PLAIN, 18));
+        name.setForeground(Color.WHITE);
+        name.setBounds(280, 170, 300, 30);
+        add(name);
 
-        usernameLabel.setFont(infoFont);
-        usernameLabel.setForeground(Color.WHITE);
-        usernameLabel.setAlignmentX(CENTER_ALIGNMENT);
+        JLabel email = new JLabel("Email: guest@email.com");
+        email.setFont(new Font("Arial", Font.PLAIN, 18));
+        email.setForeground(Color.WHITE);
+        email.setBounds(280, 220, 300, 30);
+        add(email);
 
-        emailLabel.setFont(infoFont);
-        emailLabel.setForeground(Color.WHITE);
-        emailLabel.setAlignmentX(CENTER_ALIGNMENT);
-
-        roleLabel.setFont(infoFont);
-        roleLabel.setForeground(Color.WHITE);
-        roleLabel.setAlignmentX(CENTER_ALIGNMENT);
-    }
-
-    private void layoutComponents() {
-        setLayout(new BorderLayout());
-
-        add(new Navbar(), BorderLayout.WEST);
-
-        JPanel content = new JPanel();
-
-        content.setBackground(Color.BLACK);
-        content.setLayout(new BoxLayout(content, BoxLayout.Y_AXIS));
-        content.setBorder(BorderFactory.createEmptyBorder(30, 30, 30, 30));
-        content.add(title);
-        content.add(Box.createVerticalStrut(40));
-        content.add(usernameLabel);
-        content.add(Box.createVerticalStrut(20));
-        content.add(emailLabel);
-        content.add(Box.createVerticalStrut(20));
-        content.add(roleLabel);
-
-        add(content, BorderLayout.CENTER);
+        JLabel role = new JLabel("Role: Member");
+        role.setFont(new Font("Arial", Font.PLAIN, 18));
+        role.setForeground(Color.WHITE);
+        role.setBounds(280, 270, 300, 30);
+        add(role);
     }
 }
