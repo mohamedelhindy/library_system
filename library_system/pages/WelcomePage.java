@@ -1,9 +1,9 @@
-package pages;
+package library_system.pages;
 
 import javax.swing.*;
 import java.awt.*;
 
-import utils.Navigator;
+import library_system.utils.Navigator;
 
 public class WelcomePage extends JPanel {
     private JLabel title;

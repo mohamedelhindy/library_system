@@ -1,11 +1,11 @@
-package pages;
+package library_system.pages;
 
 import java.awt.*;
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;
 
 import library_system.services.UserService;
-import utils.Navigator;
+import library_system.utils.Navigator;
 
 public class SignupPage extends JPanel {
 
