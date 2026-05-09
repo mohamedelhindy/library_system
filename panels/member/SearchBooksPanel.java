@@ -1,4 +1,4 @@
-package library_system.pages;
+package library_system.panels.member;
 
 import java.awt.*;
 import javax.swing.*;
@@ -6,21 +6,21 @@ import javax.swing.*;
 import library_system.components.Navbar;
 import library_system.components.StyledButton;
 
-public class BooksPage extends JPanel {
+public class SearchBooksPanel extends JPanel {
 
     private JLabel title;
     private JTextField searchField;
     private StyledButton searchBtn;
     private JTextArea booksList;
 
-    public BooksPage() {
+    public SearchBooksPanel() {
         initializeComponents();
         styleComponents();
         layoutComponents();
     }
 
     private void initializeComponents() {
-        title = new JLabel("Books");
+        title = new JLabel("Search Books");
         searchField = new JTextField(20);
         searchBtn = new StyledButton("Search");
 
