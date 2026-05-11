@@ -18,7 +18,7 @@ public class HistoryPage extends JPanel {
 
     private void initializeComponents() {
         title = new JLabel("History");
-        historyModel = new DefaultListModel<>();
+    historyModel = new DefaultListModel<>();
 
         // Mock data for now
         // TODO: Will do ONCE Backend integrated with database

@@ -116,6 +116,7 @@ public class SignupPage extends JPanel {
         label.setForeground(Color.WHITE);
         label.setAlignmentX(CENTER_ALIGNMENT);
         label.setMaximumSize(new Dimension(360, 25));
+
         return label;
     }
 

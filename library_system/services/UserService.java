@@ -1,6 +1,8 @@
 package library_system.services;
 
+// import library_system.Main;
 import library_system.database.DBConnection;
+import library_system.models.User;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -82,5 +84,32 @@ public class UserService {
             e.printStackTrace();
             return false;
         }
+    }
+
+    public static User login(String email, String password) {
+        String sql = "SELECT * FROM users WHERE email = ? AND password_hash = ?";
+
+        try (Connection connection = DBConnection.getConnection(); PreparedStatement statement = connection.prepareStatement(sql)) {
+            statement.setString(1, email);
+
+            statement.setString(2, password);
+
+            ResultSet resultSet = statement.executeQuery();
+
+            if (resultSet.next()) {
+                int userId = resultSet.getInt("user_id");
+
+                String name = resultSet.getString("name");
+
+                String role = resultSet.getString("role");
+
+                return new User(userId, name, email, password, role);
+            }
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+
+        return null;
     }
 }
