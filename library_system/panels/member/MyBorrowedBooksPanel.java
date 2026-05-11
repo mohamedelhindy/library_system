@@ -5,6 +5,7 @@ import java.time.LocalDate;
 import java.util.List;
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;
+import library_system.Main;
 import library_system.components.Navbar;
 import library_system.components.StyledButton;
 import library_system.models.BorrowRecord;

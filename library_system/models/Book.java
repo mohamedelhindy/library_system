@@ -16,6 +16,10 @@ public class Book {
         this.genre = genre;
         setCopiesAvailable(copiesAvailable);
     }
+ 
+     public Book(String ISBN, String title, String author, int copiesAvailable) {
+        this(ISBN, title, author, "General", copiesAvailable);
+    }
 
     public boolean isAvailable() {
         return copiesAvailable > 0;

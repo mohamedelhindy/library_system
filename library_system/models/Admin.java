@@ -3,6 +3,7 @@ package library_system.models;
 import java.util.List;
 
 public class Admin extends User {
+
     public Admin(int userId, String name, String email, String password) {
         super(userId, name, email, password, "Admin");
     }
