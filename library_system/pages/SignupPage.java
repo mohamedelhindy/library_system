@@ -8,7 +8,6 @@ import library_system.services.UserService;
 import library_system.utils.Navigator;
 
 public class SignupPage extends JPanel {
-
     private JLabel title;
     private JLabel subtitle;
     private JLabel errorLabel;
@@ -102,10 +101,12 @@ public class SignupPage extends JPanel {
         button.setFont(new Font("Segoe UI", Font.PLAIN, 14));
         button.setForeground(new Color(220, 230, 255));
         button.setBackground(new Color(0, 0, 0, 0));
+
         button.setOpaque(false);
         button.setFocusPainted(false);
         button.setBorderPainted(false);
         button.setContentAreaFilled(false);
+        
         button.setCursor(new Cursor(Cursor.HAND_CURSOR));
         button.setAlignmentX(CENTER_ALIGNMENT);
     }
