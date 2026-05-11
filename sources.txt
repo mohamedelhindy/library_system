@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 library_system/components/ButtonPanel.java
 library_system/components/LabelField.java
 library_system/components/Navbar.java
@@ -34,3 +35,33 @@ library_system/services/UserService.java
 library_system/TestConnection.java
 library_system/utils/Navigator.java
 library_system/utils/Session.java
+=======
+C:\Users\Gana\Downloads\library_system-main\library_system\library_system\Main.java
+C:\Users\Gana\Downloads\library_system-main\library_system\library_system\TestConnection.java
+C:\Users\Gana\Downloads\library_system-main\library_system\library_system\components\ButtonPanel.java
+C:\Users\Gana\Downloads\library_system-main\library_system\library_system\components\LabelField.java
+C:\Users\Gana\Downloads\library_system-main\library_system\library_system\components\Navbar.java
+C:\Users\Gana\Downloads\library_system-main\library_system\library_system\components\StyledButton.java
+C:\Users\Gana\Downloads\library_system-main\library_system\library_system\components\TextField.java
+C:\Users\Gana\Downloads\library_system-main\library_system\library_system\database\DBConnection.java
+C:\Users\Gana\Downloads\library_system-main\library_system\library_system\models\Admin.java
+C:\Users\Gana\Downloads\library_system-main\library_system\library_system\models\Book.java
+C:\Users\Gana\Downloads\library_system-main\library_system\library_system\models\BorrowRecord.java
+C:\Users\Gana\Downloads\library_system-main\library_system\library_system\models\Librarian.java
+C:\Users\Gana\Downloads\library_system-main\library_system\library_system\models\Member.java
+C:\Users\Gana\Downloads\library_system-main\library_system\library_system\models\User.java
+C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\BasePage.java
+C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\BooksPage.java
+C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\Dashboard.java
+C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\HistoryPage.java
+C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\LoginPage.java
+C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\ProfilePage.java
+C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\SignupPage.java
+C:\Users\Gana\Downloads\library_system-main\library_system\library_system\pages\WelcomePage.java
+C:\Users\Gana\Downloads\library_system-main\library_system\library_system\panels\member\MyBorrowedBooksPanel.java
+C:\Users\Gana\Downloads\library_system-main\library_system\library_system\panels\member\MyHistoryPanel.java
+C:\Users\Gana\Downloads\library_system-main\library_system\library_system\panels\member\MyReservationsPanel.java
+C:\Users\Gana\Downloads\library_system-main\library_system\library_system\panels\member\SearchBooksPanel.java
+C:\Users\Gana\Downloads\library_system-main\library_system\library_system\services\LibrarySystem.java
+C:\Users\Gana\Downloads\library_system-main\library_system\library_system\utils\Navigator.java
+>>>>>>> 6b818e3aa263f46240aed7212eafb2959ab4ac4d

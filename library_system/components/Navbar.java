@@ -10,7 +10,17 @@ import library_system.panels.librarian.*;
 import library_system.panels.admin.*;
 
 import library_system.utils.Navigator;
+<<<<<<< HEAD
 import library_system.utils.Session;
+=======
+
+import library_system.pages.LoginPage;
+import library_system.pages.BooksPage;
+import library_system.pages.Dashboard;
+import library_system.pages.HistoryPage;
+import library_system.pages.ProfilePage;
+import library_system.panels.member.SearchBooksPanel;
+>>>>>>> 6b818e3aa263f46240aed7212eafb2959ab4ac4d
 
 public class Navbar extends JPanel {
 
@@ -43,7 +53,11 @@ public class Navbar extends JPanel {
 
         addNavButton("Dashboard", e -> Navigator.navigateTo(new Dashboard()));
 
+<<<<<<< HEAD
         String role = Session.getCurrentUser().getRole();
+=======
+        if (true) {
+>>>>>>> 6b818e3aa263f46240aed7212eafb2959ab4ac4d
 
         if (role.equals("Member")) {
             addNavButton("Search Books",   e -> Navigator.navigateTo(new SearchBooksPanel()));
